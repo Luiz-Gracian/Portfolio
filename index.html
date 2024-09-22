@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+
+    <title>Reflux HTML CSS Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-style.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/lightbox.css">
+
+    <style>
+        /* Modal styles */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.9);
+        }
+
+        .modal-content {
+            margin: auto;
+            display: block;
+            width: 80%;
+            max-width: 700px;
+        }
+
+        .modal-content img {
+            width: 100%;
+            height: auto;
+        }
+
+        .close {
+            position: absolute;
+            top: 15px;
+            right: 35px;
+            color: #f1f1f1;
+            font-size: 40px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: #bbb;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div id="page-wraper">
+        <!-- Sidebar Menu -->
+        <div class="responsive-nav">
+            <i class="fa fa-bars" id="menu-toggle"></i>
+            <div id="menu" class="menu">
+                <i class="fa fa-times" id="menu-close"></i>
+                <div class="container">
+                    <div class="image">
+                        <a href="#"><img src="assets/images/author-image.jpg" alt="" /></a>
+                    </div>
+                    <div class="author-content">
+                        <h4>Luiz Graciano</h4>
+                        <span>Analista | Engenheiro de Dados</span>
+                    </div>
+                    <nav class="main-nav" role="navigation">
+                        <ul class="main-menu">
+                            <li><a href="#section1">Resumo Profissional</a></li>
+                            <li><a href="#section2">Habilidades</a></li>
+                            <li><a href="#section3">Trabalhos | Projetos</a></li>
+                            <li><a href="#section4">Informações de Contato</a></li>
+                        </ul>
+                    </nav>
+                    <div class="social-network">
+                        <ul class="soial-icons">
+                            <li>
+                                <a href="https://fb.com/templatemo"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-dribbble"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-rss"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="copyright-text">
+                        <p>Copyright 2019 Reflux Design</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="section about-me" data-section="section1">
+            <div class="container">
+                <div class="section-heading">
+                    <h2>Resumo Profissional</h2>
+                    <div class="line-dec"></div>
+                    <span>Profissional com mais de 3 anos de experiência na área de dados e Bacharelado em Estatística pela UnB.</span>
+                </div>
+                <div class="left-image-post">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="left-image">
+                                <img src="assets/images/left-image.jpg" alt="" />
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="right-text">
+                                <h4>Experiências</h4>
+                                <p>Donec tristique feugiat lacus, at sollicitudin nunc euismod sed. Mauris viverra, erat non sagittis gravida, elit dui mollis ante, sit amet eleifend purus ligula eget eros. Sed tincidunt quam vitae neque pharetra dignissim eget ut libero.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-image-post">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="left-text">
+                                <h4>Projetos</h4>
+                                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum fermentum eleifend nibh, vitae sodales elit finibus pretium. Suspendisse potenti. Ut sollicitudin risus a sollicitudin semper.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="right-image">
+                                <img src="assets/images/right-image.jpg" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section my-services" data-section="section2">
+            <div class="container">
+                <div class="section-heading">
+                    <h2>Habilidades</h2>
+                    <div class="line-dec"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="service-item">
+                            <div class="first-service-icon service-icon"></div>
+                            <h4>Linguagem de Programação</h4>
+                            <p>Phasellus non convallis dolor. Integer tempor hendrerit arcu at bibendum. Sed ac ante non metus vehicula congue quis eget eros.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="service-item">
+                            <div class="second-service-icon service-icon"></div>
+                            <h4>Big Data | ML</h4>
+                            <p>Proin lacus massa, eleifend sed fermentum in, dignissim vel metus. Nunc accumsan leo nec felis porttitor, ultricies faucibus purus mollis.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="service-item">
+                            <div class="third-service-icon service-icon"></div>
+                            <h4>Banco de Dados</h4>
+                            <p>Integer suscipit condimentum aliquet. Nam quis risus metus. Nullam faucibus quam eget arcu pretium tincidunt. Nam libero dui.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="service-item">
+                            <div class="fourth-service-icon service-icon"></div>
+                            <h4>Data Viz</h4>
+                            <p>Vivamus et dui a massa venenatis fringilla. Proin lacus massa, eleifend sed fermentum in, dignissim vel metus. Nunc accumsan leo nec felis porttitor.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section my-work" data-section="section3">
+            <div class="container">
+                <div class="section-heading">
+                    <h2>Trabalhos | Projetos</h2>
+                    <div class="line-dec"></div>
+                </div>
+                <div class="row">
+                    <div class="isotope-wrapper">
+                        <form class="isotope-toolbar">
+                            <label><input type="radio" data-type="*" checked="" name="isotope-filter" />
+                                <span>Todos</span></label>
+                            <label><input type="radio" data-type="data-viz" name="isotope-filter" />
+                                <span>Data Viz</span></label>
+                            <label><input type="radio" data-type="modelagem" name="isotope-filter" />
+                                <span>Modelagem | ML</span></label>
+                            <label><input type="radio" data-type="bd" name="isotope-filter" />
+                                <span>Banco de Dados</span></label>
+                        </form>
+                        <div class="isotope-box">
+                            <div class="isotope-item" data-type="data-viz">
+                                <figure class="snip1321">
+                                    <img src="assets/images/portfolio-01.jpg" alt="sq-sample26" />
+                                    <figcaption>
+                                        <a  href="https://app.powerbi.com/view?r=eyJrIjoiZjAyOWNkZWMtODg0ZS00MTU0LWJjOTAtMTQ5MzI3NDIyYWRhIiwidCI6ImVjMzU5YmExLTYzMGItNGQyYi1iODMzLWM4ZTZkNDhmODA1OSJ9&pageName=5d683b1d3620d8d94c33" class="modal-trigger"><i class="fa fa-search"></i></a>
+                                        <h4>First Title</h4>    
+                                        <span>free to use our template</span>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                            <div class="isotope-item" data-type="modelagem">
+                                <figure class="snip1321">
+                                    <img src="assets/images/portfolio-02.jpg" alt="sq-sample26" />
+                                    <figcaption>
+                                        <a href="https://raw.githubusercontent.com/Luiz-Gracian/FIIs---Volatility-predictions/refs/heads/main/TCC%20Relat%C3%B3rio%20Final.pdf" target="_blank" ><i class="fa fa-search"></i></a>
+                                        <h4>Second Title</h4>
+                                        <span>please tell your friends</span>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+<!-- 
+<div class="isotope-item" data-type="bd">
+    <figure class="snip1321">
+        <img src="assets/images/portfolio-03.jpg" alt="sq-sample26" />
+        <figcaption>
+            <a href="assets/images/portfolio-03.jpg" class="modal-trigger"><i class="fa fa-search"></i></a>
+            <h4>Item Third</h4>
+            <span>customize anything</span>
+        </figcaption>
+    </figure>
+</div> 
+-->
+
+                            <div class="isotope-item" data-type="data-viz">
+                                <figure class="snip1321">
+                                    <img src="assets/images/portfolio-04.jpg" alt="sq-sample26" />
+                                    <figcaption>
+                                        <a href="https://app.powerbi.com/view?r=eyJrIjoiYzkwNmQzMjktZTk3Ni00ZTRjLWJiNWYtNDFhY2ZlMWI0MzQwIiwidCI6ImVjMzU5YmExLTYzMGItNGQyYi1iODMzLWM4ZTZkNDhmODA1OSJ9" class="modal-trigger"><i class="fa fa-search"></i></a>
+                                        <h4>Item Fourth</h4>
+                                        <span>Re-distribution not allowed</span>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section contact-me" data-section="section4">
+            <div class="container">
+                <div class="section-heading">
+                    <h2>Informações Para Contato</h2>
+                    <div class="line-dec"></div>
+                    <span>
+                        Linkedin: <a href="https://www.linkedin.com/in/luiz-gustavo-jordao-graciano/">linkedin/in/luiz-graciano</a><br>
+                        Github: <a href="https://github.com/Luiz-Gracian">github/Luiz-Gracian</a><br>
+                        Email: lgphobo@gmail.com
+                    </span>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Modal -->
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <div class="modal-content">
+            <iframe id="modalIframe" title="PRF_pj" width="1200" height="960" frameborder="0" allowFullScreen="true"></iframe>
+        </div>
+    </div>
+    </body>
+</html>
+
+    <!-- Scripts -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+
+    <script src="assets/js/custom.js"></script>
